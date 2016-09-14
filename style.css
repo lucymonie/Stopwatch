@@ -1,0 +1,115 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+/* End of Cross Browser Compatability CSS */
+
+#main {
+	margin: 0 auto;
+	width: 300px;
+	height: 350px;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 3em;
+  padding: 15px;
+  text-align: center;
+  color: #666;
+}
+
+#timer {
+  height: 20px;
+  background-color: #666;
+  color: #eee;
+  font-family: monospace;
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+  margin:0 auto;
+  border-radius:10px;
+  width:150px;
+}
+
+#space {
+	height:10px;
+}
+
+.buttons {
+	height:60px;
+	width:60px;
+	border-radius:10px 30px;
+	background-color: #666;
+	color:white;
+	font-family: monospace;
+  	font-size: 1em;
+  	padding-bottom: .05em;
+}
+
+ul { 
+	list-style-type: none; 
+	overflow: hidden; 
+	width:210px; 
+	margin: 0 auto;
+}
+
+ul li { 
+	float:left; 
+	width: 60px; 
+	margin: 0px 5px 0px 5px;
+}
+
+ul li a { 
+	display: block; 
+	padding:2px;
+	width:60px;
+	border-radius: 10px 30px;
+}
+
+ul li a:hover { 
+	background: yellow;
+	color:yellow;
+}
