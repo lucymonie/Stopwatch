@@ -46,10 +46,14 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 /* End of Cross Browser Compatability CSS */
+#top {
+  height:50px;
+  width: 100%;
+}
 
 #main {
 	margin: 0 auto;
-	width: 300px;
+	width: 350px;
 	height: 350px;
 }
 
@@ -71,7 +75,7 @@ h1 {
   text-align: center;
   margin:0 auto;
   border-radius:10px;
-  width:150px;
+  width:200px;
 }
 
 #space {
@@ -80,7 +84,7 @@ h1 {
 
 .buttons {
 	height:30px;
-	width:60px;
+	width:70px;
 	background-color: #666;
   border-radius: 5px;
 	color:white;
@@ -92,14 +96,14 @@ h1 {
 ul { 
 	list-style-type: none; 
 	overflow: hidden; 
-	width:210px; 
+	width:240px; 
 	margin: 0 auto;
 }
 
 ul li { 
 	float:left; 
 	width: 60px; 
-	margin: 0px 5px 0px 5px;
+	margin: 0px 8px 0px 8px;
 }
 
 #test {
